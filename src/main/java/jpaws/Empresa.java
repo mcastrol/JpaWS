@@ -10,23 +10,7 @@ public class Empresa {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    public Empresa() {
-    }
 
-    public Empresa(String nombre, String email, String web, String tipoSociedad, String nif) {
-        this.nombre = nombre;
-        this.email = email;
-        this.web = web;
-        this.tipoSociedad = tipoSociedad;
-        this.nif = nif;
-    }
-
-    public Empresa(String nombre, String email) {
-        this.nombre = nombre;
-        this.email = email;
-    }
-    
-    
 
     private String nombre;
 
